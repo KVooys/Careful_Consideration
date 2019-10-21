@@ -9,7 +9,11 @@ from dataclasses import dataclass, field
 # from collections import Counter
 
 """
-Decklist format is the same as "Download" on mtggoldfish:
+
+This class generates some sample hands for a given decklist, attempting to dissect it further.
+It's still a WIP!
+
+Decklist format I use is the same as "Download" on https://www.mtggoldfish.com, so it looks like this:
 4 Opt
 4 Path to Exile
 ..

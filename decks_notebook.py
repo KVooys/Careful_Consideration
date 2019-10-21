@@ -14,7 +14,7 @@ print(data.describe())
 # all decks
 total_finishes = data['Deck'].value_counts()
 
-# decks with 6 wins or more
+# decks with 6 wins or more have their result noted as a number instead of a -
 top_performers = data.loc[data['Wins']!= '-']
 tp = top_performers['Deck'].value_counts()
 
